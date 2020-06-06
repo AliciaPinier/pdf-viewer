@@ -3372,7 +3372,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 var CSS_UNITS = 96.0 / 72.0;
 exports.CSS_UNITS = CSS_UNITS;
-var DEFAULT_SCALE_VALUE = 'auto';
+var DEFAULT_SCALE_VALUE = 'page-fit';
 exports.DEFAULT_SCALE_VALUE = DEFAULT_SCALE_VALUE;
 var DEFAULT_SCALE = 1.0;
 exports.DEFAULT_SCALE = DEFAULT_SCALE;
@@ -5132,7 +5132,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'compressed.tracemonkey-pldi-09.pdf',
+    value: 'manuscrit.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
@@ -5201,7 +5201,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   spreadModeOnLoad: {
-    value: -1,
+    value: 2,
     kind: OptionKind.VIEWER
   },
   textLayerMode: {
@@ -13846,7 +13846,7 @@ function getDefaultPreferences() {
       "disablePageLabels": false,
       "historyUpdateUrl": false,
       "scrollModeOnLoad": -1,
-      "spreadModeOnLoad": -1
+      "spreadModeOnLoad": 2
     });
   }
 
