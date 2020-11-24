@@ -5132,7 +5132,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'Alicia PINIER - BOOK',
+    value: 'AliciaPINIER-BOOK',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
